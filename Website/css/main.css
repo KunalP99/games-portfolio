@@ -1,4 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira&family=Sarabun:wght@700&display=swap");
 body {
-  background-color: #B9CACE;
+  background: #B9CACE;
+  margin: 0;
+  font-family: 'Sarabun', sans-serif;
+}
+
+.navbar .logo {
+  padding: 2em;
+}
+
+.navbar nav {
+  display: none;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.navbar .mobile-menu {
+  padding: 2em;
+  cursor: pointer;
+  width: 10%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 5em 3em;
+}
+
+.hero {
+  text-align: center;
+}
+
+.left-col h1 {
+  margin-top: -0.5em;
+}
+
+.left-col h1 span {
+  color: white;
+  text-decoration: underline;
+}
+
+.hero-img {
+  width: 70%;
 }
 /*# sourceMappingURL=main.css.map */
