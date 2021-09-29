@@ -1,12 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Saira&family=Sarabun:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Saira:wght@400;500&family=Sarabun:wght@700&display=swap");
 body {
   background: #B9CACE;
   margin: 0;
+  padding: 0;
   font-family: 'Sarabun', sans-serif;
 }
 
 .navbar .logo {
-  padding: 2em;
+  padding: 3em;
 }
 
 .navbar nav {
@@ -36,20 +37,194 @@ section {
   padding: 5em 3em;
 }
 
-.hero {
-  text-align: center;
+.left-col {
+  padding-left: 0.5em;
 }
 
 .left-col h1 {
+  font-size: 3.3em;
   margin-top: -0.5em;
 }
 
 .left-col h1 span {
+  font-size: 0.9em;
   color: white;
   text-decoration: underline;
 }
 
+.left-col p {
+  font-size: 1.5em;
+  text-align: left;
+  font-family: 'Saira', sans-serif;
+  font-weight: 500;
+}
+
 .hero-img {
-  width: 70%;
+  padding-bottom: 3em;
+  width: 30%;
+}
+
+section.mywork {
+  font-family: 'Saira', sans-serif;
+  padding-top: 1em;
+  margin: 0;
+  text-align: center;
+}
+
+section.mywork img {
+  width: 90%;
+}
+
+section.mywork p {
+  font-size: 1.4em;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 4em;
+}
+
+section.mywork h2 {
+  font-size: 2em;
+  font-weight: 900;
+}
+
+.opfa .opfa-banner {
+  text-align: center;
+  width: 124%;
+  margin-left: -3em;
+  margin-top: -15em;
+}
+
+.opfa p {
+  font-family: 'Saira', sans-serif;
+  font-weight: 500;
+  padding-bottom: 2em;
+}
+
+.opfa .gameplay-section h2 {
+  text-align: center;
+}
+
+.opfa .opfa-gif1 {
+  padding-left: 2em;
+  padding-bottom: 2em;
+  width: 90%;
+}
+
+.opfa .opfa-gif2 {
+  padding-left: 2em;
+  padding-bottom: 2em;
+  width: 90%;
+}
+
+.opfa .opfa-gif3 {
+  padding-left: 2em;
+  padding-bottom: 2em;
+  width: 90%;
+}
+
+.opfa .opfa-gif4 {
+  padding-left: 2em;
+  width: 90%;
+}
+
+nav.menu-btn {
+  display: block;
+}
+
+nav {
+  position: fixed;
+  z-index: 999;
+  width: 66%;
+  right: 0;
+  top: 0;
+  background: white;
+  opacity: 0.8;
+  height: 100vh;
+  padding: 1em;
+}
+
+nav ul.primary-nav {
+  margin-top: 5em;
+}
+
+nav li a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 0.5em;
+  font-size: 2em;
+  text-align: right;
+}
+
+nav li a:hover {
+  color: grey;
+}
+
+.mobile-menu-exit {
+  width: 20%;
+  margin: 0.1em;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile-menu, .mobile-menu-exit {
+    display: none;
+  }
+  .navbar .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 180px auto;
+        grid-template-columns: 180px auto;
+  }
+  .navbar nav {
+    font-size: 1.2em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background: none;
+    position: unset;
+    height: auto;
+    width: 100%;
+    padding: 0;
+  }
+  .navbar nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .navbar nav a {
+    font-size: 1em;
+    padding: 0.1em 1em;
+  }
+  ul.primary-nav {
+    padding: 0;
+  }
+  ul.secondary-nav {
+    margin-top: 2.3em;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .container {
+    width: 1080px;
+    margin: 0 auto;
+  }
+  section {
+    padding: 10em 4em;
+  }
+  .hero .container {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: left;
+  }
+  .hero-img {
+    position: relative;
+    float: right;
+    margin-left: 1em;
+  }
 }
 /*# sourceMappingURL=main.css.map */

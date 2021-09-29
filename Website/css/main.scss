@@ -1,15 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Saira&family=Sarabun:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@400;500&family=Sarabun:wght@700&display=swap');
 
 body {
     background: #B9CACE;
     margin: 0;
-    font-family: 'Sarabun', sans-serif
+    padding: 0;
+    font-family: 'Sarabun', sans-serif;
 }
 
+// Navigation bar (My Work, About, LinkedIn logo, GitHub logo)
 .navbar {
 
     .logo {
-        padding: 2em;
+        padding: 3em;
     }
 
     nav {
@@ -34,24 +36,208 @@ ul {
     padding: 0;
 }
 
+
 section {
     padding: 5em 3em;
 }
 
-.hero {
-    text-align: center;
-}
-
+// Main body of text on the upper half of the page (Kunal Patel, Game Developer + paragraph underneath)
 .left-col {
+    padding-left: 0.5em;
     h1 {
+        font-size: 3.3em;
         margin-top: -0.5em;
         span {
+            font-size: 0.9em;
             color: white;
             text-decoration: underline;
         }
     }
+
+    p {
+        font-size: 1.5em;
+        text-align: left;
+        font-family: 'Saira', sans-serif;
+        font-weight: 500;
+    }
 }
 
+// Avatar image
 .hero-img {
-    width: 70%;
+    padding-bottom: 3em;
+    width: 30%;
+}
+
+// My work section
+section.mywork {
+    font-family: 'Saira', sans-serif;
+    padding-top: 1em;
+    margin: 0;
+    text-align: center;
+
+    img {
+        width: 90%;
+    }
+
+    p {
+        font-size: 1.4em;
+        font-weight: 500;
+        text-align: center;
+        padding-bottom: 4em;
+    }
+
+    h2 {
+        font-size: 2em;
+        font-weight: 900;
+    }
+}
+
+.opfa
+{
+    .opfa-banner {
+        text-align: center;
+        width: 124%;
+        margin-left: -3em;
+        margin-top: -15em;
+    }
+
+    p {
+        font-family: 'Saira', sans-serif;
+        font-weight: 500;
+        padding-bottom: 2em;
+    }
+
+    .gameplay-section {
+        h2 {
+            text-align: center;
+        }
+    }
+
+    .opfa-gif1 {
+        padding-left: 2em;
+        padding-bottom: 2em;
+        width:90%;
+    }
+
+    .opfa-gif2 {
+        padding-left: 2em;
+        padding-bottom: 2em;
+        width:90%;
+    }
+
+    .opfa-gif3 {
+        padding-left: 2em;
+        padding-bottom: 2em;
+        width:90%;
+    }
+
+    .opfa-gif4 {
+        padding-left: 2em;
+        width: 90%;
+    }
+}
+
+nav.menu-btn {
+    display: block;
+}
+
+nav {
+    position: fixed;
+    z-index: 999;
+    width: 66%;
+    right: 0;
+    top: 0;
+    background: white;
+    opacity: 0.8;
+    height: 100vh;
+    padding: 1em;
+
+    ul.primary-nav {
+        margin-top: 5em;
+    }
+
+    li {
+        a {
+            color: black;
+            text-decoration: none;
+            display: block;
+            padding: 0.5em;
+            font-size: 2em;
+            text-align: right;
+
+            &:hover {
+                color: grey;
+            }
+        }
+    }
+}
+
+.mobile-menu-exit {
+    width: 20%;
+    margin: 0.1em;
+    cursor: pointer;
+}
+
+// Responsive design
+@media only screen and (min-width: 768px) {
+    .mobile-menu, .mobile-menu-exit {
+        display: none;
+    }
+
+    .navbar .container {
+        display: grid;
+        grid-template-columns: 180px auto;
+    }
+
+    .navbar nav {
+        font-size: 1.2em;
+        display: flex;
+        justify-content: space-between;
+        background: none;
+        position: unset;
+        height: auto;
+        width: 100%;
+        padding: 0;
+
+        ul {
+            display: flex;
+        }
+
+        a {
+            font-size: 1em;
+            padding: 0.1em 1em;
+        }
+    }
+
+    ul.primary-nav {
+        padding: 0;
+    }
+
+    ul.secondary-nav {
+        margin-top: 2.3em;
+    }
+}
+
+@media only screen and (min-width: 1080px) {
+    .container {
+        width: 1080px;
+        margin: 0 auto;
+    }
+
+    section {
+        padding: 10em 4em;
+    }
+
+    .hero .container {
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .hero-img {
+        position: relative;
+        float: right;
+        //margin: -3em;
+        margin-left: 1em;
+        
+    }
 }
