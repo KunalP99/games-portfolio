@@ -25,6 +25,7 @@ body {
 
     .mobile-menu {
         padding: 2em;
+        float: right;
         cursor: pointer;
         width: 10%;
     }
@@ -180,13 +181,21 @@ nav {
 
 // Responsive design
 @media only screen and (min-width: 768px) {
+
     .mobile-menu, .mobile-menu-exit {
         display: none;
     }
 
     .navbar .container {
+        place-content: space-between;
         display: grid;
         grid-template-columns: 180px auto;
+
+        .logo {
+            padding: 0;
+            margin-top: 2em;
+            margin-left: 3em;
+        }
     }
 
     .navbar nav {
@@ -201,6 +210,15 @@ nav {
 
         ul {
             display: flex;
+            margin-top: 2em;
+
+            .github-logo { 
+                margin-right: -1.3em;
+                margin-top: -0.5em;
+            }
+            .linkedin-logo {
+                margin-top: -0.5em;
+            }
         }
 
         a {
@@ -208,20 +226,29 @@ nav {
             padding: 0.1em 1em;
         }
     }
-
-    ul.primary-nav {
-        padding: 0;
-    }
-
-    ul.secondary-nav {
-        margin-top: 2.3em;
-    }
 }
 
 @media only screen and (min-width: 1080px) {
+
+    body {
+        margin:0;
+        padding:0;
+        overflow-x:hidden;
+    }
+
     .container {
+        padding: 0;
         width: 1080px;
         margin: 0 auto;
+    }
+
+    .navbar .container {
+
+        .logo {
+            padding: 0;
+            margin-top: 3em;
+            margin-left: 0.6em;
+        }
     }
 
     section {
@@ -234,9 +261,10 @@ nav {
     }
 
     .hero-img {
+        width: 26%;
         position: relative;
         float: right;
-        //margin: -3em;
+        margin: -1em;
         margin-left: 1em;
         
     }
