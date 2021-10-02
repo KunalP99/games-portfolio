@@ -97,7 +97,7 @@ section.mywork {
 {
     .opfa-banner {
         text-align: center;
-        width: 116%;
+        width: 125%;
         margin-left: -3em;
         margin-top: -15em;
     }
@@ -128,20 +128,14 @@ section.mywork {
 
     .opfa-gif3 {
         padding-left: 2em;
-        padding-bottom: 2em;
         width:90%;
-    }
-
-    .opfa-gif4 {
-        padding-left: 2em;
-        width: 90%;
     }
 }
 
 .moonote {
     .moonote-banner {
         text-align: center;
-        width: 116%;
+        width: 125%;
         margin-left: -3em;
         margin-top: -15em;
     }
@@ -153,10 +147,51 @@ section.mywork {
     }
 
     .gameplay-section {
-        text-align: center;
+        h2 {
+            text-align: center;
+        }
     }
 
     .moonote-gif1 {
+        padding-left: 2em;
+        padding-bottom: 2em;
+        width:90%;
+    }
+}
+
+.ts {
+    .ts-banner {
+        text-align: center;
+        width: 125%;
+        margin-left: -3em;
+        margin-top: -15em;
+    }
+
+    p {
+        font-family: 'Saira', sans-serif;
+        font-weight: 500;
+        padding-bottom: 2em;
+    }
+
+    .gameplay-section {
+        h2 {
+            text-align: center;
+        }
+    }
+    
+    .ts-gif1 {
+        padding-left: 2em;
+        padding-bottom: 2em;
+        width:90%;
+    }
+
+    .ts-gif2 {
+        padding-left: 2em;
+        padding-bottom: 2em;
+        width:90%;
+    }
+
+    .ts-gif3 {
         padding-left: 2em;
         padding-bottom: 2em;
         width:90%;
@@ -260,6 +295,14 @@ nav {
 
     .moonote {
         .moonote-banner {
+            padding-top: 6em;
+            width: 114.4%;
+        }
+    }
+
+    .ts {
+        .ts-banner {
+            padding-top: 6em;
             width: 114.4%;
         }
     }
@@ -308,24 +351,23 @@ nav {
         
     }
 
-    /*.mywork {
+    // Images become side by side
+    .column {
+        width: 33.33%;
+        float: left;
+    }
+
+    .row::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .mywork {
         h2 {
-            margin-right: 29em;
+            margin-right: 28.4em;
         }
-
-        .opfa-mywork-image {
-            width: 50%;
-            margin-right: 40em;
-        }
-
-        .opfa-mywork-text {
-            margin-right: 25em;
-        }
-
-        .moonote-mywork-image {
-            width: 40%;
-        } 
-    } */
+    }
 
     .opfa {
         .opfa-banner {
@@ -340,6 +382,22 @@ nav {
         p {
             margin-left: 2em;
         }
+
+        .opfa-gif1 {
+            width: 140%;
+            margin-left: -17em;
+        }
+
+        .opfa-gif2 {
+            width: 140%;
+            margin-left: -6em;
+        }
+
+        .opfa-gif3 {
+            width: 140%;
+            margin-left: 5em;
+        }
+
     }
 
     .moonote {
@@ -347,5 +405,36 @@ nav {
             margin-left: -28em;
             width: 180%;
         }
+    }
+
+    .ts {
+        .ts-banner {
+            margin-left: -28em;
+            width: 180%;
+        }
+
+        .ts-story {
+            margin-left: 1.31em;
+        }
+
+        p {
+            margin-left: 2em;
+        }
+
+        .ts-gif1 {
+            width: 140%;
+            margin-left: -17em;
+        }
+
+        .ts-gif2 {
+            width: 140%;
+            margin-left: -6em;
+        }
+
+        .ts-gif3 {
+            width: 140%;
+            margin-left: 5em;
+        }
+
     }
 }

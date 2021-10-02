@@ -90,7 +90,7 @@ section.mywork h2 {
 
 .opfa .opfa-banner {
   text-align: center;
-  width: 116%;
+  width: 125%;
   margin-left: -3em;
   margin-top: -15em;
 }
@@ -119,18 +119,12 @@ section.mywork h2 {
 
 .opfa .opfa-gif3 {
   padding-left: 2em;
-  padding-bottom: 2em;
-  width: 90%;
-}
-
-.opfa .opfa-gif4 {
-  padding-left: 2em;
   width: 90%;
 }
 
 .moonote .moonote-banner {
   text-align: center;
-  width: 116%;
+  width: 125%;
   margin-left: -3em;
   margin-top: -15em;
 }
@@ -141,11 +135,46 @@ section.mywork h2 {
   padding-bottom: 2em;
 }
 
-.moonote .gameplay-section {
+.moonote .gameplay-section h2 {
   text-align: center;
 }
 
 .moonote .moonote-gif1 {
+  padding-left: 2em;
+  padding-bottom: 2em;
+  width: 90%;
+}
+
+.ts .ts-banner {
+  text-align: center;
+  width: 125%;
+  margin-left: -3em;
+  margin-top: -15em;
+}
+
+.ts p {
+  font-family: 'Saira', sans-serif;
+  font-weight: 500;
+  padding-bottom: 2em;
+}
+
+.ts .gameplay-section h2 {
+  text-align: center;
+}
+
+.ts .ts-gif1 {
+  padding-left: 2em;
+  padding-bottom: 2em;
+  width: 90%;
+}
+
+.ts .ts-gif2 {
+  padding-left: 2em;
+  padding-bottom: 2em;
+  width: 90%;
+}
+
+.ts .ts-gif3 {
   padding-left: 2em;
   padding-bottom: 2em;
   width: 90%;
@@ -241,6 +270,11 @@ nav li a:hover {
     width: 114.4%;
   }
   .moonote .moonote-banner {
+    padding-top: 6em;
+    width: 114.4%;
+  }
+  .ts .ts-banner {
+    padding-top: 6em;
     width: 114.4%;
   }
 }
@@ -280,24 +314,18 @@ nav li a:hover {
     margin: -1.5em;
     margin-left: 3em;
   }
-  /*.mywork {
-        h2 {
-            margin-right: 29em;
-        }
-
-        .opfa-mywork-image {
-            width: 50%;
-            margin-right: 40em;
-        }
-
-        .opfa-mywork-text {
-            margin-right: 25em;
-        }
-
-        .moonote-mywork-image {
-            width: 40%;
-        } 
-    } */
+  .column {
+    width: 33.33%;
+    float: left;
+  }
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .mywork h2 {
+    margin-right: 28.4em;
+  }
   .opfa .opfa-banner {
     margin-left: -28em;
     width: 180%;
@@ -308,9 +336,43 @@ nav li a:hover {
   .opfa p {
     margin-left: 2em;
   }
+  .opfa .opfa-gif1 {
+    width: 140%;
+    margin-left: -17em;
+  }
+  .opfa .opfa-gif2 {
+    width: 140%;
+    margin-left: -6em;
+  }
+  .opfa .opfa-gif3 {
+    width: 140%;
+    margin-left: 5em;
+  }
   .moonote .moonote-banner {
     margin-left: -28em;
     width: 180%;
+  }
+  .ts .ts-banner {
+    margin-left: -28em;
+    width: 180%;
+  }
+  .ts .ts-story {
+    margin-left: 1.31em;
+  }
+  .ts p {
+    margin-left: 2em;
+  }
+  .ts .ts-gif1 {
+    width: 140%;
+    margin-left: -17em;
+  }
+  .ts .ts-gif2 {
+    width: 140%;
+    margin-left: -6em;
+  }
+  .ts .ts-gif3 {
+    width: 140%;
+    margin-left: 5em;
   }
 }
 /*# sourceMappingURL=main.css.map */
