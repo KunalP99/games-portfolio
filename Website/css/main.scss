@@ -97,7 +97,7 @@ section.mywork {
 {
     .opfa-banner {
         text-align: center;
-        width: 124%;
+        width: 116%;
         margin-left: -3em;
         margin-top: -15em;
     }
@@ -135,6 +135,31 @@ section.mywork {
     .opfa-gif4 {
         padding-left: 2em;
         width: 90%;
+    }
+}
+
+.moonote {
+    .moonote-banner {
+        text-align: center;
+        width: 116%;
+        margin-left: -3em;
+        margin-top: -15em;
+    }
+
+    p {
+        font-family: 'Saira', sans-serif;
+        font-weight: 500;
+        padding-bottom: 2em;
+    }
+
+    .gameplay-section {
+        text-align: center;
+    }
+
+    .moonote-gif1 {
+        padding-left: 2em;
+        padding-bottom: 2em;
+        width:90%;
     }
 }
 
@@ -226,6 +251,18 @@ nav {
             padding: 0.1em 1em;
         }
     }
+
+    .opfa {
+        .opfa-banner {
+            width: 114.4%;
+        }
+    }
+
+    .moonote {
+        .moonote-banner {
+            width: 114.4%;
+        }
+    }
 }
 
 @media only screen and (min-width: 1080px) {
@@ -244,9 +281,11 @@ nav {
 
     .navbar .container {
 
+        margin-bottom: 5em;
+
         .logo {
             padding: 0;
-            margin-top: 3em;
+            margin-top: 1em;
             margin-left: 0.6em;
         }
     }
@@ -261,11 +300,52 @@ nav {
     }
 
     .hero-img {
-        width: 26%;
+        width: 24%;
         position: relative;
         float: right;
-        margin: -1em;
-        margin-left: 1em;
+        margin: -1.5em;
+        margin-left: 3em;
         
+    }
+
+    /*.mywork {
+        h2 {
+            margin-right: 29em;
+        }
+
+        .opfa-mywork-image {
+            width: 50%;
+            margin-right: 40em;
+        }
+
+        .opfa-mywork-text {
+            margin-right: 25em;
+        }
+
+        .moonote-mywork-image {
+            width: 40%;
+        } 
+    } */
+
+    .opfa {
+        .opfa-banner {
+            margin-left: -28em;
+            width: 180%;
+        }
+
+        .opfa-story {
+            margin-left: 1.31em;
+        }
+        
+        p {
+            margin-left: 2em;
+        }
+    }
+
+    .moonote {
+        .moonote-banner {
+            margin-left: -28em;
+            width: 180%;
+        }
     }
 }
