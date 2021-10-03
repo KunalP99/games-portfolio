@@ -137,7 +137,7 @@ section.mywork {
         text-align: center;
         width: 125%;
         margin-left: -3em;
-        margin-top: -15em;
+        margin-top: -7em;
     }
 
     p {
@@ -177,6 +177,13 @@ section.mywork {
         h2 {
             text-align: center;
         }
+        .ts-youtubevideo {
+            text-align: center;
+            .ts-youtube {
+                margin-bottom: 5em;
+            }
+        }
+
     }
     
     .ts-gif1 {
@@ -192,6 +199,45 @@ section.mywork {
     }
 
     .ts-gif3 {
+        padding-left: 2em;
+        padding-bottom: 2em;
+        width:90%;
+    }
+}
+
+.kc {
+    .kc-banner {
+        text-align: center;
+        width: 125%;
+        margin-left: -3em;
+        margin-top: -15em;
+    }
+
+    .gameplay-section {
+        h2 {
+            text-align: center;
+        }
+    }
+
+    p {
+        font-family: 'Saira', sans-serif;
+        font-weight: 500;
+        padding-bottom: 2em;
+    }
+
+    .kc-gif1 {
+        padding-left: 2em;
+        padding-bottom: 2em;
+        width:90%;
+    }
+
+    .kc-gif2 {
+        padding-left: 2em;
+        padding-bottom: 2em;
+        width:90%;
+    }
+
+    .kc-gif3 {
         padding-left: 2em;
         padding-bottom: 2em;
         width:90%;
@@ -305,6 +351,19 @@ nav {
             padding-top: 6em;
             width: 114.4%;
         }
+        
+        .ts-youtube {
+            margin-left: 2em;
+            width: 600px;
+            margin-bottom: 10em;
+        }
+    }
+
+    .kc {
+        .kc-banner {
+            padding-top: 6em;
+            width: 114.4%;
+        }
     }
 }
 
@@ -375,12 +434,8 @@ nav {
             width: 180%;
         }
 
-        .opfa-story {
-            margin-left: 1.31em;
-        }
-        
         p {
-            margin-left: 2em;
+            font-size: 1.3em;
         }
 
         .opfa-gif1 {
@@ -403,22 +458,24 @@ nav {
     .moonote {
         .moonote-banner {
             margin-left: -28em;
+            margin-top: -15em;
             width: 180%;
+        }
+
+        p {
+            font-size: 1.3em;
         }
     }
 
     .ts {
         .ts-banner {
             margin-left: -28em;
+            margin-top: -15em;
             width: 180%;
         }
 
-        .ts-story {
-            margin-left: 1.31em;
-        }
-
         p {
-            margin-left: 2em;
+            font-size: 1.3em;
         }
 
         .ts-gif1 {
@@ -436,5 +493,35 @@ nav {
             margin-left: 5em;
         }
 
+        .ts-youtube {
+            width: 1080px;
+            height: 500px;
+        }
+    }
+
+    .kc {
+        .kc-banner {
+            margin-left: -28em;
+            width: 180%;
+        }
+
+        p {
+            font-size: 1.3em;
+        }
+
+        .kc-gif1 {
+            width: 140%;
+            margin-left: -17em;
+        }
+
+        .kc-gif2 {
+            width: 140%;
+            margin-left: -6em;
+        }
+
+        .kc-gif3 {
+            width: 140%;
+            margin-left: 5em;
+        }
     }
 }

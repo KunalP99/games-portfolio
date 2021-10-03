@@ -126,7 +126,7 @@ section.mywork h2 {
   text-align: center;
   width: 125%;
   margin-left: -3em;
-  margin-top: -15em;
+  margin-top: -7em;
 }
 
 .moonote p {
@@ -162,6 +162,14 @@ section.mywork h2 {
   text-align: center;
 }
 
+.ts .gameplay-section .ts-youtubevideo {
+  text-align: center;
+}
+
+.ts .gameplay-section .ts-youtubevideo .ts-youtube {
+  margin-bottom: 5em;
+}
+
 .ts .ts-gif1 {
   padding-left: 2em;
   padding-bottom: 2em;
@@ -175,6 +183,41 @@ section.mywork h2 {
 }
 
 .ts .ts-gif3 {
+  padding-left: 2em;
+  padding-bottom: 2em;
+  width: 90%;
+}
+
+.kc .kc-banner {
+  text-align: center;
+  width: 125%;
+  margin-left: -3em;
+  margin-top: -15em;
+}
+
+.kc .gameplay-section h2 {
+  text-align: center;
+}
+
+.kc p {
+  font-family: 'Saira', sans-serif;
+  font-weight: 500;
+  padding-bottom: 2em;
+}
+
+.kc .kc-gif1 {
+  padding-left: 2em;
+  padding-bottom: 2em;
+  width: 90%;
+}
+
+.kc .kc-gif2 {
+  padding-left: 2em;
+  padding-bottom: 2em;
+  width: 90%;
+}
+
+.kc .kc-gif3 {
   padding-left: 2em;
   padding-bottom: 2em;
   width: 90%;
@@ -277,6 +320,15 @@ nav li a:hover {
     padding-top: 6em;
     width: 114.4%;
   }
+  .ts .ts-youtube {
+    margin-left: 2em;
+    width: 600px;
+    margin-bottom: 10em;
+  }
+  .kc .kc-banner {
+    padding-top: 6em;
+    width: 114.4%;
+  }
 }
 
 @media only screen and (min-width: 1080px) {
@@ -330,11 +382,8 @@ nav li a:hover {
     margin-left: -28em;
     width: 180%;
   }
-  .opfa .opfa-story {
-    margin-left: 1.31em;
-  }
   .opfa p {
-    margin-left: 2em;
+    font-size: 1.3em;
   }
   .opfa .opfa-gif1 {
     width: 140%;
@@ -350,17 +399,19 @@ nav li a:hover {
   }
   .moonote .moonote-banner {
     margin-left: -28em;
+    margin-top: -15em;
     width: 180%;
+  }
+  .moonote p {
+    font-size: 1.3em;
   }
   .ts .ts-banner {
     margin-left: -28em;
+    margin-top: -15em;
     width: 180%;
   }
-  .ts .ts-story {
-    margin-left: 1.31em;
-  }
   .ts p {
-    margin-left: 2em;
+    font-size: 1.3em;
   }
   .ts .ts-gif1 {
     width: 140%;
@@ -371,6 +422,29 @@ nav li a:hover {
     margin-left: -6em;
   }
   .ts .ts-gif3 {
+    width: 140%;
+    margin-left: 5em;
+  }
+  .ts .ts-youtube {
+    width: 1080px;
+    height: 500px;
+  }
+  .kc .kc-banner {
+    margin-left: -28em;
+    width: 180%;
+  }
+  .kc p {
+    font-size: 1.3em;
+  }
+  .kc .kc-gif1 {
+    width: 140%;
+    margin-left: -17em;
+  }
+  .kc .kc-gif2 {
+    width: 140%;
+    margin-left: -6em;
+  }
+  .kc .kc-gif3 {
     width: 140%;
     margin-left: 5em;
   }
