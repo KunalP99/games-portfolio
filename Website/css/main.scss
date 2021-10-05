@@ -5,6 +5,11 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Sarabun', sans-serif;
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 // Navigation bar (My Work, About, LinkedIn logo, GitHub logo)
@@ -147,9 +152,7 @@ section.mywork {
     }
 
     .gameplay-section {
-        h2 {
-            text-align: center;
-        }
+        text-align: center;
     }
 
     .moonote-gif1 {
@@ -284,6 +287,10 @@ nav {
     margin: 0.1em;
     cursor: pointer;
 }
+// ABOUT PAGE
+.about-page {
+    // Do all code for mobile version of about page here
+}
 
 // Responsive design
 @media only screen and (min-width: 768px) {
@@ -335,7 +342,7 @@ nav {
 
     .opfa {
         .opfa-banner {
-            width: 114.4%;
+            width: 112.3%;
         }
     }
 
@@ -365,9 +372,13 @@ nav {
             width: 114.4%;
         }
     }
+
+    .about-page {
+
+    }
 }
 
-@media only screen and (min-width: 1080px) {
+@media only screen and (min-width: 1600px) {
 
     body {
         margin:0;
@@ -508,7 +519,7 @@ nav {
         p {
             font-size: 1.3em;
         }
-
+        
         .kc-gif1 {
             width: 140%;
             margin-left: -17em;
@@ -523,5 +534,9 @@ nav {
             width: 140%;
             margin-left: 5em;
         }
+    }
+
+    .about-page {
+
     }
 }

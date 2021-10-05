@@ -4,6 +4,11 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Sarabun', sans-serif;
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .navbar .logo {
@@ -135,7 +140,7 @@ section.mywork h2 {
   padding-bottom: 2em;
 }
 
-.moonote .gameplay-section h2 {
+.moonote .gameplay-section {
   text-align: center;
 }
 
@@ -310,7 +315,7 @@ nav li a:hover {
     padding: 0.1em 1em;
   }
   .opfa .opfa-banner {
-    width: 114.4%;
+    width: 112.3%;
   }
   .moonote .moonote-banner {
     padding-top: 6em;
@@ -331,7 +336,7 @@ nav li a:hover {
   }
 }
 
-@media only screen and (min-width: 1080px) {
+@media only screen and (min-width: 1600px) {
   body {
     margin: 0;
     padding: 0;
