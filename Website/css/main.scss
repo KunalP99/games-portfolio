@@ -42,7 +42,6 @@ ul {
     padding: 0;
 }
 
-
 section {
     padding: 5em 3em;
 }
@@ -117,6 +116,10 @@ section.mywork {
         h2 {
             text-align: center;
         }
+
+        .play-my-game-text {
+            display: none;
+        }
     }
 
     .opfa-gif1 {
@@ -153,6 +156,14 @@ section.mywork {
 
     .gameplay-section {
         text-align: center;
+
+        .moonote-youtubevideo {
+            text-align: center;
+
+            .moonote-youtube{
+                margin-bottom: 5em;
+            }
+        }
     }
 
     .moonote-gif1 {
@@ -289,6 +300,75 @@ nav {
 }
 // ABOUT PAGE
 .about-page {
+    margin: 0;
+    padding: 0;
+    
+    .aboutme {
+        .container {
+
+            margin-top: -3em;
+
+            img {
+                display: none;
+            }
+
+            h1 {
+                font-family: 'Sarabun', sans-serif;
+                font-size: 2em;
+            }
+
+            p {
+                font-family: 'Saira' , sans-serif;
+                font-weight: 500;
+
+                span {
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .skills {
+        .container {
+            margin-top: -7em;
+        }
+    }
+
+    .tools {
+        .container {
+            margin-top: -7em;
+        }
+    }
+
+    .image-me {
+            text-align: center;
+
+            img {
+                margin-top: 3em;
+                width: 70%;
+            }
+
+            h2 {
+                font-family: 'Sarabun', sans-serif;
+                color: white;
+            }
+
+            p {
+                font-family: 'Saira' , sans-serif;
+                font-weight: 500;
+            }
+    }
+
+    .column {
+        width: 27%;
+        float: left;
+    }
+
+    .row::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
     // Do all code for mobile version of about page here
 }
 
@@ -340,9 +420,19 @@ nav {
         }
     }
 
+    .hero-img {
+        width: 20%; 
+    }
+
     .opfa {
         .opfa-banner {
             width: 112.3%;
+        }
+
+        .gameplay-section {
+            .play-my-game-text {
+                display: block;
+            }
         }
     }
 
@@ -350,6 +440,12 @@ nav {
         .moonote-banner {
             padding-top: 6em;
             width: 114.4%;
+        }
+
+        .moonote-youtube {
+            margin-left: 2em;
+            width: 600px;
+            margin-bottom: 10em;
         }
     }
 
@@ -375,6 +471,36 @@ nav {
 
     .about-page {
 
+        .aboutme {
+            p {
+                font-size: 1.5em;
+            }
+        }
+
+        .image-me {
+                img {
+                    width: 60%;
+                }
+
+                h2 {
+                    font-size: 3.5em;
+                }
+                
+                p {
+                    font-size: 2em;
+                }
+        }
+
+    .column {
+        width: 20%;
+        float: left;
+    }
+
+    .row::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
     }
 }
 
@@ -413,7 +539,7 @@ nav {
     }
 
     .hero-img {
-        width: 24%;
+        width: 25%;
         position: relative;
         float: right;
         margin: -1.5em;
@@ -467,6 +593,11 @@ nav {
     }
 
     .moonote {
+        .container {
+            .gameplay-section {
+                text-align: center;
+            }
+        }
         .moonote-banner {
             margin-left: -28em;
             margin-top: -15em;
@@ -476,6 +607,17 @@ nav {
         p {
             font-size: 1.3em;
         }
+
+        .moonote-youtubevideo {
+            margin-left: -2em;
+            text-align: center;
+
+            .moonote-youtube {
+                width: 1080px;
+                height: 500px;
+            }
+        }
+
     }
 
     .ts {
@@ -538,5 +680,77 @@ nav {
 
     .about-page {
 
+        .aboutme {
+            .container {
+                margin-top: -11em;
+
+                img {
+                    display: block;
+                    width: 40%;
+                    margin-top: 9em;
+                    margin-left: 2em;
+                    float: right;
+                }
+
+                h1 {
+                    font-size: 4em;
+                }
+            }
+        }
+
+        .skills {
+            .container {
+                
+                margin-top: -17em;
+
+                h2 {
+                    font-size: 3em;
+                }
+            }
+        }
+
+        .tools{
+            .container{
+                margin-top: -21em;
+                
+                h2 {
+                    font-size: 3em;
+                }
+            }
+        }
+
+        .image-me {
+                position: relative;
+                top: -20em;
+                left: 40em;
+
+                h2 {
+                    font-size: 3em;
+                }
+                
+                p {
+                    font-size: 1.5em;
+                }
+
+                img {
+                    display: none;
+                }
+
+                .contact-details {
+                    text-align: left;
+                }
+        }
+        
+
+        .column {
+            width: 9%;
+            float: left;
+        }
+    
+        .row::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
     }
 }

@@ -110,6 +110,10 @@ section.mywork h2 {
   text-align: center;
 }
 
+.opfa .gameplay-section .play-my-game-text {
+  display: none;
+}
+
 .opfa .opfa-gif1 {
   padding-left: 2em;
   padding-bottom: 2em;
@@ -142,6 +146,14 @@ section.mywork h2 {
 
 .moonote .gameplay-section {
   text-align: center;
+}
+
+.moonote .gameplay-section .moonote-youtubevideo {
+  text-align: center;
+}
+
+.moonote .gameplay-section .moonote-youtubevideo .moonote-youtube {
+  margin-bottom: 5em;
 }
 
 .moonote .moonote-gif1 {
@@ -267,6 +279,71 @@ nav li a:hover {
   cursor: pointer;
 }
 
+.about-page {
+  margin: 0;
+  padding: 0;
+}
+
+.about-page .aboutme .container {
+  margin-top: -3em;
+}
+
+.about-page .aboutme .container img {
+  display: none;
+}
+
+.about-page .aboutme .container h1 {
+  font-family: 'Sarabun', sans-serif;
+  font-size: 2em;
+}
+
+.about-page .aboutme .container p {
+  font-family: 'Saira' , sans-serif;
+  font-weight: 500;
+}
+
+.about-page .aboutme .container p span {
+  color: white;
+}
+
+.about-page .skills .container {
+  margin-top: -7em;
+}
+
+.about-page .tools .container {
+  margin-top: -7em;
+}
+
+.about-page .image-me {
+  text-align: center;
+}
+
+.about-page .image-me img {
+  margin-top: 3em;
+  width: 70%;
+}
+
+.about-page .image-me h2 {
+  font-family: 'Sarabun', sans-serif;
+  color: white;
+}
+
+.about-page .image-me p {
+  font-family: 'Saira' , sans-serif;
+  font-weight: 500;
+}
+
+.about-page .column {
+  width: 27%;
+  float: left;
+}
+
+.about-page .row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 @media only screen and (min-width: 768px) {
   .mobile-menu, .mobile-menu-exit {
     display: none;
@@ -314,12 +391,23 @@ nav li a:hover {
     font-size: 1em;
     padding: 0.1em 1em;
   }
+  .hero-img {
+    width: 20%;
+  }
   .opfa .opfa-banner {
     width: 112.3%;
+  }
+  .opfa .gameplay-section .play-my-game-text {
+    display: block;
   }
   .moonote .moonote-banner {
     padding-top: 6em;
     width: 114.4%;
+  }
+  .moonote .moonote-youtube {
+    margin-left: 2em;
+    width: 600px;
+    margin-bottom: 10em;
   }
   .ts .ts-banner {
     padding-top: 6em;
@@ -333,6 +421,27 @@ nav li a:hover {
   .kc .kc-banner {
     padding-top: 6em;
     width: 114.4%;
+  }
+  .about-page .aboutme p {
+    font-size: 1.5em;
+  }
+  .about-page .image-me img {
+    width: 60%;
+  }
+  .about-page .image-me h2 {
+    font-size: 3.5em;
+  }
+  .about-page .image-me p {
+    font-size: 2em;
+  }
+  .about-page .column {
+    width: 20%;
+    float: left;
+  }
+  .about-page .row::after {
+    content: "";
+    display: table;
+    clear: both;
   }
 }
 
@@ -365,7 +474,7 @@ nav li a:hover {
     text-align: left;
   }
   .hero-img {
-    width: 24%;
+    width: 25%;
     position: relative;
     float: right;
     margin: -1.5em;
@@ -402,6 +511,9 @@ nav li a:hover {
     width: 140%;
     margin-left: 5em;
   }
+  .moonote .container .gameplay-section {
+    text-align: center;
+  }
   .moonote .moonote-banner {
     margin-left: -28em;
     margin-top: -15em;
@@ -409,6 +521,14 @@ nav li a:hover {
   }
   .moonote p {
     font-size: 1.3em;
+  }
+  .moonote .moonote-youtubevideo {
+    margin-left: -2em;
+    text-align: center;
+  }
+  .moonote .moonote-youtubevideo .moonote-youtube {
+    width: 1080px;
+    height: 500px;
   }
   .ts .ts-banner {
     margin-left: -28em;
@@ -452,6 +572,57 @@ nav li a:hover {
   .kc .kc-gif3 {
     width: 140%;
     margin-left: 5em;
+  }
+  .about-page .aboutme .container {
+    margin-top: -11em;
+  }
+  .about-page .aboutme .container img {
+    display: block;
+    width: 40%;
+    margin-top: 9em;
+    margin-left: 2em;
+    float: right;
+  }
+  .about-page .aboutme .container h1 {
+    font-size: 4em;
+  }
+  .about-page .skills .container {
+    margin-top: -17em;
+  }
+  .about-page .skills .container h2 {
+    font-size: 3em;
+  }
+  .about-page .tools .container {
+    margin-top: -21em;
+  }
+  .about-page .tools .container h2 {
+    font-size: 3em;
+  }
+  .about-page .image-me {
+    position: relative;
+    top: -20em;
+    left: 40em;
+  }
+  .about-page .image-me h2 {
+    font-size: 3em;
+  }
+  .about-page .image-me p {
+    font-size: 1.5em;
+  }
+  .about-page .image-me img {
+    display: none;
+  }
+  .about-page .image-me .contact-details {
+    text-align: left;
+  }
+  .about-page .column {
+    width: 9%;
+    float: left;
+  }
+  .about-page .row::after {
+    content: "";
+    display: table;
+    clear: both;
   }
 }
 /*# sourceMappingURL=main.css.map */
