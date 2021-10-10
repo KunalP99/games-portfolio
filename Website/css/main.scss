@@ -191,8 +191,10 @@ section.mywork {
         h2 {
             text-align: center;
         }
+
         .ts-youtubevideo {
             text-align: center;
+            
             .ts-youtube {
                 margin-bottom: 5em;
             }
@@ -227,9 +229,21 @@ section.mywork {
         margin-top: -15em;
     }
 
+    .backtotop-icon {
+        float: right;
+    }
+
     .gameplay-section {
         h2 {
             text-align: center;
+        }
+        .kc-youtubevideo {
+            text-align: center;
+
+            .kc-youtube {
+                margin-bottom: 5em;
+            }
+
         }
     }
 
@@ -319,6 +333,7 @@ nav {
 
             p {
                 font-family: 'Saira' , sans-serif;
+                font-size: 1.2em;
                 font-weight: 500;
 
                 span {
@@ -369,7 +384,17 @@ nav {
         display: table;
         clear: both;
     }
-    // Do all code for mobile version of about page here
+}
+
+.play-opfa-page {
+    // Hide scroll bar
+    overflow: hidden;
+
+    .simmerio {
+        .container {
+            margin-top: -3em;
+        }
+    }
 }
 
 // Responsive design
@@ -467,6 +492,12 @@ nav {
             padding-top: 6em;
             width: 114.4%;
         }
+
+        .kc-youtube {
+            margin-left: 2em;
+            width: 600px;
+            margin-bottom: 10em;
+        }
     }
 
     .about-page {
@@ -502,6 +533,34 @@ nav {
         clear: both;
     }
     }
+
+    .play-opfa-page {
+        // Hide scroll bar
+        overflow: hidden;
+    
+        .simmerio {
+            text-align: center;
+            .container {
+                margin-top: 0.5em;
+            }
+        }
+    } 
+}
+
+@media only screen and (min-width: 1400px) {
+    .about-page {
+        .column {
+            width: 10%;
+            float: left;
+        }
+    
+        .row::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    }
+
 }
 
 @media only screen and (min-width: 1600px) {
@@ -521,6 +580,8 @@ nav {
     .navbar .container {
 
         margin-bottom: 5em;
+        position: relative;
+        top: 3em;
 
         .logo {
             padding: 0;
@@ -609,7 +670,7 @@ nav {
         }
 
         .moonote-youtubevideo {
-            margin-left: -2em;
+            margin-left: -1em;
             text-align: center;
 
             .moonote-youtube {
@@ -676,10 +737,20 @@ nav {
             width: 140%;
             margin-left: 5em;
         }
+
+        .kc-youtube {
+            text-align: center;
+            width: 1080px;
+            height: 500px;
+        }
+
+        .backtotop-icon {
+            position: relative;
+            left: 15em
+        }
     }
 
     .about-page {
-
         .aboutme {
             .container {
                 margin-top: -11em;
@@ -721,7 +792,7 @@ nav {
 
         .image-me {
                 position: relative;
-                top: -20em;
+                top: -24em;
                 left: 40em;
 
                 h2 {
@@ -751,6 +822,17 @@ nav {
             content: "";
             display: table;
             clear: both;
+        }
+    }
+
+    .play-opfa-page {
+        // Hide scroll bar
+        overflow: hidden;
+    
+        .simmerio {
+            .container {
+                margin-top: -7em;
+            }
         }
     }
 }
